@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+}
+.page-wrapper .page-container .row .column h2 {
+    margin-top: 150px;
+}
+
+.page-wrapper .page-container .row .column p {
+    max-width: 330px;
+    height: auto;
+}
