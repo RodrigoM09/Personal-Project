@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background-color: gray;
+    /*background-color: gray;*/
+    background-image: url("../img/collage.png");
 }
 .row{
     display: flex;
@@ -17,4 +18,9 @@ body{
 .page-wrapper .page-container .row .column p {
     max-width: 330px;
     height: auto;
+}
+.page-container > .row > .column:nth-child(1) {
+    background-color: grey;
+    max-width: 365px;
+    height: 100vh;
 }
