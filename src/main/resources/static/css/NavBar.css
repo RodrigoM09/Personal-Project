@@ -12,7 +12,7 @@
     --toggle-color: #DDD;
     --text-color: #707070;
 
-    --tran-03: all 0.2s ease;
+    --tran-02: all 0.2s ease;
     --tran-03: all 0.3s ease;
     --tran-04: all 0.4s ease;
     --tran-05: all 0.5s ease;
@@ -44,12 +44,24 @@ body{
 }
 .sideBar li{
     height: 50px;
-    background: red;
     list-style: none;
     display: flex;
     align-items: center;
-
 }
+.sidebar li .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 60px;
+    font-size: 20px;
+}
+.sidebar li .icon,
+.sidebar li .text {
+    color: var(--text-color);
+    transition: var(--tran-02);
+}
+
+
 .sidebar header{
     position: relative;
 }
@@ -89,4 +101,31 @@ header .image-text .header-text{
     justify-content: center;
     border-radius: 20%;
     color: var(--sidebar-color);
+}
+.sideBar .search-box{
+    background: var(--primary-color-light);
+}
+.search-box input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    background: var(--primary-color-light);
+}
+.sideBar li a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: var(--tran-04);
+}
+.sideBar li a:hover{
+    background: var(--primary-color);
+    color: var(--sidebar-color);
+}
+.sideBar li a:hover .icon, .sideBar li a:hover .text{
+    transition: var(--tran-04);
 }
