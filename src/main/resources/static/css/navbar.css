@@ -283,10 +283,7 @@ body.dark .switch::before{
     /*background: var(--body-color);*/
     transition: var(--tran-05);
 }
-.page-container .text{
-    font-size: 30px;
-    font-weight: 600;
-    color: var(--text-color);
+.page-container .column{
     padding: 8px 40px;
 }
 .sidebar.close ~ .page-container{
