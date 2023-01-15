@@ -42,6 +42,17 @@ body{
     padding: 10px 14px;
     background: var(--sidebar-color);
 }
+.sideBar li{
+    height: 50px;
+    background: red;
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+.sidebar header{
+    position: relative;
+}
 
 .sideBar .image-text img{
     width: 40px;
@@ -64,4 +75,18 @@ header .image-text .header-text{
 }
 .header-text .profession{
     margin-top: -2px;
+}
+.sideBar header .toggle{
+    position: absolute;
+    top: 50%;
+    right: -25px;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+    background: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20%;
+    color: var(--sidebar-color);
 }
