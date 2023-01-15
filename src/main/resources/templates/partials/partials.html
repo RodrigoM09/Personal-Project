@@ -28,28 +28,26 @@
     <!--custom navbar css-->
     <link rel="stylesheet" href="/css/NavBar.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="/css/">
 
     <!--custom footer css-->
-    <link rel="stylesheet" href="/css/">
+
 
     <!--custom global styling for each page-->
-    <link rel="stylesheet" href="/css/">
+<!--    <link rel="stylesheet" href="/css/universalStyle.css">-->
 
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    <script src="/js/"></script>
-
   </div>
 </head>
 <body>
-<nav th:fragment="mynav" class="sideBar">
+<nav th:fragment="mynav" class="sideBar close">
   <header>
     <div class="image-text">
       <span class="image">
         <img src="/img/Rodrigo%20Marquez.png" alt="logo">
       </span>
 
-      <div class="text header-text">
+      <div class="text logo-text">
         <span class="name">Web Development</span>
 <!--        <span class="title">Full Stack</span>-->
       </div>
@@ -64,18 +62,65 @@
         <input type="search" placeholder="Search">
       </li>
       <ul class="menu-links">
-        <li class="nav-links">
+        <li class="nav-link">
           <a href="#">
             <i class="bx bx-home-alt"></i>
-            <span class="text nav-text">Dashboard</span>
+            <span class="text nav-text">&nbsp;Dashboard</span>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a href="#">
+            <i class="bx bx-windows"></i>
+            <span class="text nav-text">&nbsp;Projects</span>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a href="#">
+            <i class="bx bxs-file"></i>
+            <span class="text nav-text">&nbsp;Resume</span>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a href="#">
+            <i class='bx bx-id-card'></i>
+            <span class="text nav-text">&nbsp;About Me</span>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a href="#">
+            <i class='bx bxs-crop'></i>
+            <span class="text nav-text">&nbsp;Images</span>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a href="#">
+            <i class='bx bx-dice-6'></i>
+            <span class="text nav-text">&nbsp;Contact Me</span>
           </a>
         </li>
       </ul>
     </div>
+    <div class="bottom-content">
+      <li class="">
+        <a href="#">
+          <i class='bx bx-log-out icon'></i>
+          <span class="text nav-text">&nbsp;Logout</span>
+        </a>
+      </li>
+      <li class="mode">
+        <div class="sun-moon">
+          <i class="bx bx-moon icon moon"></i>
+          <i class="bx bx-sun icon sun"></i>
+        </div>
+        <span class="mode-text text">Dark Mode</span>
 
+        <div class="toggle-switch">
+          <span class="switch"></span>
+        </div>
+      </li>
+
+    </div>
   </div>
 </nav>
-
-
 </body>
 </html>

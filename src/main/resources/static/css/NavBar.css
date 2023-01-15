@@ -6,9 +6,9 @@
 
 :root{
     --body-color: #E4E9F7;
-    --sidebar-color: #2D2D2D;
+    --sidebar-color: #a6a4a4;
     --primary-color: #695CFE;
-    --primary-color-light: #F6F5FF;
+    --primary-color-light: #939090;
     --toggle-color: #DDD;
     --text-color: #707070;
 
@@ -21,7 +21,18 @@
 body{
     height: 100vh;
     background: var(--body-color);
+    transition: var(--tran-02);
 }
+
+body.dark{
+    --body-color: #18191A;
+    --sidebar-color: #242526;
+    --primary-color: #3A3B3C;
+    --primary-color-light: #3A3B3C;
+    --toggle-color: #FFF;
+    --text-color: #CCC;
+}
+
 .sideBar .text{
     font-size: 16px;
     font-weight: 500;
@@ -77,21 +88,21 @@ body{
     margin-bottom: 20px;
 }
 
-header .image-text .header-text{
+header .image-text .logo-text{
     display: flex;
     flex-direction: column;
 }
 
-.header-text .name{
+.logo-text .name{
     font-weight: 600;
 }
-.header-text .profession{
+.logo-text .profession{
     margin-top: -2px;
 }
 .sideBar header .toggle{
     position: absolute;
-    top: 50%;
-    right: -25px;
+    top: 4%;
+    right: -13px;
     transform: translateY(-50%);
     width: 25px;
     height: 25px;
@@ -99,8 +110,10 @@ header .image-text .header-text{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 20%;
+    border-radius: 50%;
     color: var(--sidebar-color);
+    cursor: pointer;
+    transition: var(--tran-05);
 }
 .sideBar .search-box{
     background: var(--primary-color-light);
@@ -128,4 +141,62 @@ header .image-text .header-text{
 }
 .sideBar li a:hover .icon, .sideBar li a:hover .text{
     transition: var(--tran-04);
+}
+
+.sideBar .menu-bar{
+    height: calc(100% - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-bar .mode{
+    background-color: var(--primary-color-light);
+}
+
+.menu-bar .mode .sun-moon{
+    height: 50px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+
+}
+.menu-bar .mode .i{
+    position: absolute;
+}
+
+.menu-bar .mode i.sun{
+    opacity: 0;
+}
+.menu-bar .mode .toggle-switch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-width: 60px;
+    cursor: pointer;
+
+}
+.toggle-switch .switch{
+    position: relative;
+    height: 22px;
+    width: 44px;
+    border-radius: 25px;
+    background: var(--toggle-color);
+}
+.switch::before{
+    content: "";
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    background: var(--sidebar-color);
+    transition: var(--tran-03);
+}
+
+body.dark .switch::before{
+    left: 24px;
 }
