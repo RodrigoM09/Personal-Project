@@ -8,18 +8,38 @@
 <nav th:replace="~{partials/partials :: mynav}"></nav>
 <div class="page-wrapper">
     <div class="page-container">
-        <div class="row">
+        <div class="row contact-row">
             <div class="column">
                 <h1 class="contact-me">Contact Me</h1>
                 <form class="contact-form" th:action="@{/contactme}" method="post">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="Your name..">
-                    <label for="email">Email</label>
-                    <input type="text" id="email" name="email" placeholder="Your email..">
-                    <label for="subject">Subject</label>
+                    <div class="name-email">
+                        <div class="name">
+                            <label class="name-label" for="name">Name:</label>
+                            <input class="name-input" type="text" id="name" name="name" placeholder="Your name..">
+                        </div>
+                        <div class="email">
+                            <label class="email-label" for="email">Email:</label>
+                            <input class="email-label" type="text" id="email" name="email" placeholder="Your email..">
+                        </div>
+                    </div>
+                    <div class="name-email">
+                        <div class="name">
+                            <label class="name-label" for="company-name">Company Name:</label>
+                            <input class="name-input" type="text" id="company-name" name="name" placeholder="Company name..">
+                        </div>
+                        <div class="email">
+                            <label class="email-label" for="phone-number">Phone Number:</label>
+                            <input class="email-label" type="text" id="phone-number" name="phone-number" placeholder="Your Phone Number..">
+                        </div>
+                    </div>
+                    <label for="subject">Subject:</label>
                     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
                     <input type="submit" value="Submit">
                 </form>
+            </div>
+            <div class="column">
+                <div class="contact-info">
+                    <h1>My Contact</h1>
             </div>
 
         </div>
