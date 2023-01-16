@@ -43,9 +43,9 @@
 <nav th:fragment="mynav" class="sidebar close">
   <header>
     <div class="image-text">
-      <span class="image">
+      <a class="image" th:href="@{/}">
         <img src="/img/Rodrigo%20Marquez.png" alt="logo">
-      </span>
+      </a>
 
       <div class="text logo-text">
         <span class="name">Web Development</span>
@@ -80,20 +80,20 @@
             <span class="text nav-text">&nbsp;Resume</span>
           </a>
         </li>
+<!--        <li class="nav-link">-->
+<!--          <a th:href="@{/}">-->
+<!--            <i class='bx bx-id-card icon'></i>-->
+<!--            <span class="text nav-text">&nbsp;About Me</span>-->
+<!--          </a>-->
+<!--        </li>-->
         <li class="nav-link">
-          <a th:href="@{/}">
-            <i class='bx bx-id-card icon'></i>
-            <span class="text nav-text">&nbsp;About Me</span>
-          </a>
-        </li>
-        <li class="nav-link">
-          <a th:href="@{/}">
+          <a th:href="@{/images}">
             <i class='bx bxs-crop icon'></i>
             <span class="text nav-text">&nbsp;Images</span>
           </a>
         </li>
         <li class="nav-link">
-          <a th:href="@{/}">
+          <a th:href="@{/contactme}">
             <i class='bx bx-dice-6 icon'></i>
             <span class="text nav-text">&nbsp;Contact Me</span>
           </a>
