@@ -275,7 +275,7 @@ body.dark .switch::before{
     left: 24px;
 }
 
-.page-container{
+.page-container, .page{
     position: relative;
     left: 250px;
     height: 100vh;
@@ -286,7 +286,7 @@ body.dark .switch::before{
 .page-container .column{
     padding: 8px 40px;
 }
-.sidebar.close ~ .page-container{
+.sidebar.close ~ .page-container, .sidebar.close ~ .page{
     left: 88px;
     width: calc(100% - 88px);
 }

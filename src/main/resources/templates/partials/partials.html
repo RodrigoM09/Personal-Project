@@ -63,37 +63,37 @@
       </li>
       <ul class="menu-links">
         <li class="nav-link">
-          <a href="#">
+          <a th:href="@{/}">
             <i class="bx bx-home-alt icon"></i>
             <span class="text nav-text">&nbsp;Dashboard</span>
           </a>
         </li>
         <li class="nav-link">
-          <a href="#">
+          <a th:href="@{/projects}">
             <i class="bx bx-windows icon"></i>
             <span class="text nav-text">&nbsp;Projects</span>
           </a>
         </li>
         <li class="nav-link">
-          <a href="#">
+          <a th:href="@{/resume}">
             <i class="bx bxs-file icon"></i>
             <span class="text nav-text">&nbsp;Resume</span>
           </a>
         </li>
         <li class="nav-link">
-          <a href="#">
+          <a th:href="@{/}">
             <i class='bx bx-id-card icon'></i>
             <span class="text nav-text">&nbsp;About Me</span>
           </a>
         </li>
         <li class="nav-link">
-          <a href="#">
+          <a th:href="@{/}">
             <i class='bx bxs-crop icon'></i>
             <span class="text nav-text">&nbsp;Images</span>
           </a>
         </li>
         <li class="nav-link">
-          <a href="#">
+          <a th:href="@{/}">
             <i class='bx bx-dice-6 icon'></i>
             <span class="text nav-text">&nbsp;Contact Me</span>
           </a>
@@ -122,5 +122,8 @@
     </div>
   </div>
 </nav>
+
+
+<script th:fragment="scripts" src="/js/navbar.js"></script>
 </body>
 </html>
