@@ -54,6 +54,9 @@ main {
     padding: 2.75rem;
     position: relative;
 }
+.hide-mobile{
+    display: grid;
+}
 /*jobs-one {*/
 /*    display: block;*/
 /*    font-size: 1.17em;*/
