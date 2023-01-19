@@ -1,0 +1,23 @@
+.page-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.outer-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+    width: 350px;
+    border-radius: 5%;
+    border: 1px solid black;
+}
+
+.inner-line {
+    height: 205px;
+    width: 330px;
+    border-radius: 3%;
+    border: 1px solid black;
+    margin-bottom: 25px;
+}
