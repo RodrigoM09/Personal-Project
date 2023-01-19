@@ -1,7 +1,10 @@
 .page-container{
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
     align-items: center;
+}
+.row.first {
+    align-self: baseline;
 }
 .outer-line {
     display: flex;
@@ -12,6 +15,7 @@
     width: 350px;
     border-radius: 5%;
     border: 1px solid black;
+    background-color: lightgray;
 }
 
 .inner-line {
@@ -20,4 +24,22 @@
     border-radius: 3%;
     border: 1px solid black;
     margin-bottom: 25px;
+}
+.first .outer-line .inner-line {
+    background-image: url("../img/coffeeproject.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.time-line{
+    height: 325px;
+    width: 182px;
+    border-radius: 1%;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+.time-line p{
+    text-align: center;
+    position: absolute;
+    top: 220px;
+    left: 400px;
 }
