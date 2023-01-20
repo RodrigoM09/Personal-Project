@@ -2,10 +2,9 @@
     display: flex;
     /*flex-direction: column;*/
     align-items: center;
+    /*position: relative;*/
 }
-.row.first {
-    align-self: baseline;
-}
+
 .outer-line {
     display: flex;
     flex-direction: row;
@@ -25,8 +24,31 @@
     border: 1px solid black;
     margin-bottom: 25px;
 }
+.row.first {
+    align-self: baseline;
+}
+.row.third{
+    position: absolute;
+    top: 100px;
+    right: 175px;
+}
+.row.fourth{
+    position: absolute;
+    top: 300px;
+    right: 175px;
+}
 .first .outer-line .inner-line {
+    /*background-image: url("../img/coffeeproject.png");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.second .outer-line .inner-line {
     background-image: url("../img/coffeeproject.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.third .outer-line .inner-line {
+    background-image: url("../img/movieproject.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
