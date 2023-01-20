@@ -34,7 +34,7 @@
 }
 .row.fourth{
     position: absolute;
-    top: 300px;
+    bottom: -300px;
     right: 175px;
 }
 .first .outer-line .inner-line {
@@ -49,6 +49,11 @@
 }
 .third .outer-line .inner-line {
     background-image: url("../img/movieproject.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fourth .outer-line .inner-line {
+    background-image: url("../img/weatherapp.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
