@@ -4,7 +4,7 @@
     grid-row-gap: 8rem;
 }
 
-.line-container{
+.line-container {
     position: absolute;
     margin-top: 133px;
     margin-left: 65px;
@@ -13,7 +13,7 @@
     text-align: center;
     overflow: hidden;
 }
-svg{
+svg {
     display: inline-block;
     height: 100%;
 }
