@@ -1,7 +1,9 @@
 .page-container{
     display: grid;
-    grid-template-rows: 30% 30%;
+    grid-template-columns: 33% 33% 33%;
     grid-row-gap: 8rem;
+    justify-items: center;
+    margin-top: 25px;
 }
 
 .line-container {
@@ -37,13 +39,14 @@ svg {
     border: 1px solid black;
     margin-bottom: 25px;
 }
+.outer-line p{
+    align-self: end;
+    position: absolute;
+    margin-bottom: 5px;
+}
 .row.first {
-    margin-top: 50px;
-    margin-left: 50px;
 }
 .row.second{
-    justify-self: flex-end;
-    margin-right: 100px;
 }
 .row.third{
 }
