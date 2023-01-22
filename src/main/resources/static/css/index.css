@@ -33,13 +33,14 @@ body{
 .outCircle  {
     width: 200px;
     height: 200px;
-    background-color: lightblue;
+    /*background-color: antiquewhite;*/
+    opacity: 1;
     left: 270px;
     position: absolute;
     top: 50px;
     -moz-border-radius: 100px;
     -webkit-border-radius: 100px;
-    border-radius: 100px;
+    border-radius: 100%;
 }
 
 
@@ -64,8 +65,8 @@ body{
     -webkit-border-radius: 50px;
     border-radius: 100px;
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: 73px;
+    top: -21px;
     background: antiquewhite;
     display: block;
     text-align: center;
@@ -78,8 +79,34 @@ body{
     -webkit-border-radius: 50px;
     border-radius: 100px;
     position: absolute;
-    left: -20px;
-    top: 90px;
+    left: -22px;
+    top: 70px;
+    background: antiquewhite;
+    display: block;
+    text-align: center;
+}
+.innerThree {
+    width: 50px;
+    height: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 100px;
+    position: absolute;
+    left: 74px;
+    top: 174px;
+    background: antiquewhite;
+    display: block;
+    text-align: center;
+}
+.innerFour {
+    width: 50px;
+    height: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 100px;
+    position: absolute;
+    left: 170px;
+    top: 70px;
     background: antiquewhite;
     display: block;
     text-align: center;
@@ -93,6 +120,16 @@ body{
     position: absolute;
     top: 16px;
     left: 17px;
+}
+.gmail{
+    position: absolute;
+    top: 12px;
+    left: 13px;
+}
+.phone{
+    position: absolute;
+    top: 15px;
+    left: 15px;
 }
 @-webkit-keyframes circle {
     from {-webkit-transform: rotateZ(0deg)}
