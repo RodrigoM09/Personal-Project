@@ -121,7 +121,7 @@ dialog {
     align-self: center;
 }
 
-.img_overlay{
+.img_overlay, .img_overlay_second_row{
     height: 205px;
     width: 330px;
     border-radius: 3%;
@@ -139,8 +139,13 @@ dialog {
     top: 11px;
     bottom: 0;
 }
+.img_overlay_second_row{
+    position: absolute;
+    top: 455px;
+    bottom: 0;
+}
 
-.img_overlay:hover{
+.img_overlay:hover, .img_overlay_second_row:hover{
     opacity: 1;
 }
 .showRender{
