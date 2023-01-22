@@ -76,6 +76,16 @@ svg {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.fifth .outer-line .inner-line {
+    /*background-image: url("../img/recipeproject.png");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sixth .outer-line .inner-line {
+    background-image: url("../img/venued.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .time-line{
     height: 325px;
     width: 182px;
