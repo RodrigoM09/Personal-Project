@@ -24,3 +24,73 @@ body{
     max-width: 365px;
     height: 100vh;
 }
+.row > .column:nth-child(2) {
+    position: absolute;
+    top: 190px;
+    left: 375px;
+}
+
+.outCircle  {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    left: 270px;
+    position: absolute;
+    top: 50px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+}
+
+
+
+.rotate {
+    width: 100%;
+    height: 100%;
+    -webkit-animation: circle 10s infinite linear;
+
+}
+
+.counterRotate {
+    width: 50px;
+    height: 50px;
+    -webkit-animation: ccircle 10s infinite linear;
+}
+
+.inner {
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 100px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: red;
+    display: block;
+    text-align: center;
+
+}
+.innerTwo {
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 100px;
+    position: absolute;
+    left: -40px;
+    top: 98px;
+    background: blue;
+    display: block;
+    text-align: center;
+}
+
+@-webkit-keyframes circle {
+    from {-webkit-transform: rotateZ(0deg)}
+    to {-webkit-transform: rotateZ(360deg)}
+}
+
+/*@-webkit-keyframes circle {*/
+/*    from {-webkit-transform: rotateZ(360deg)}*/
+/*    to {-webkit-transform: rotateZ(0deg)}*/
+/*}*/
