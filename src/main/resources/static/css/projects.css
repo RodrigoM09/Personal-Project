@@ -44,6 +44,10 @@ svg {
     position: absolute;
     margin-bottom: 5px;
 }
+.row{
+    display: flex;
+    flex-direction: column;
+}
 .row.first {
 }
 .row.second{
@@ -84,4 +88,61 @@ svg {
     position: absolute;
     top: 220px;
     left: 400px;
+}
+dialog {
+    background-color: rgba(195,99,100,.9);
+    position: absolute;
+    top: 15px;
+    left: 138px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    padding: 10px;
+    z-index: 99;
+}
+.dialog-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.close-button{
+    background-color: transparent;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.clickForMoreInfo{
+    max-width: fit-content;
+    align-self: center;
+}
+
+.img_overlay{
+    height: 205px;
+    width: 330px;
+    border-radius: 3%;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.img_overlay{
+    position: absolute;
+    top: 11px;
+    bottom: 0;
+}
+
+.img_overlay:hover{
+    opacity: 1;
+}
+.showRender{
+    color: white;
 }

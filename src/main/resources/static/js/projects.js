@@ -28,3 +28,40 @@ window.addEventListener('scroll', function(e) {
     }
 });
 
+//Show Dialog
+$(document).ready(function() {
+    $('.showDialog').on("click", function (e) {
+        e.preventDefault();
+        $(this).parents(".outer-line").children(".dialog").show();
+        $(this).parents(".img_overlay_bottom").siblings(".dialog").show();
+    });
+
+    $('.close-button').click(function (e) {
+        e.preventDefault();
+        $(this).parents('.dialog').hide();
+    });
+});
+
+
+//close dialog on click outside
+$(document).mouseup(function (e) {
+    let container = $(".dialog");
+    if (!container.is(e.target) && container.has(e.target).length === 0) {
+        container.hide();
+    }
+});
+
+
+const overlays = document.querySelectorAll('.overlay');
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        // Toggle the show class on the overlays elements
+        overlays.forEach(overlay => {
+            overlay.classList.toggle('show', entry.isIntersecting);
+        });
+    });
+}, {
+    // rootMargin: '100% 0% 100% 0%'
+    threshold: 1
+});
