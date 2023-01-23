@@ -1,0 +1,1 @@
+const sectionOne = document.querySelector('.');
