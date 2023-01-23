@@ -52,16 +52,18 @@ $(document).mouseup(function (e) {
 });
 
 
-const overlays = document.querySelectorAll('.overlay');
-
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-        // Toggle the show class on the overlays elements
-        overlays.forEach(overlay => {
-            overlay.classList.toggle('show', entry.isIntersecting);
-        });
-    });
-}, {
-    // rootMargin: '100% 0% 100% 0%'
-    threshold: 1
-});
+// const overlays = document.querySelectorAll('.overlay');
+//
+// const observer = new IntersectionObserver((entries) => {
+//     entries.forEach((entry) => {
+//         // Toggle the show class on the overlays elements
+//         overlays.forEach(overlay => {
+//             overlay.classList.toggle('show', entry.isIntersecting);
+//         });
+//     });
+// }, {
+//     // rootMargin: '100% 0% 100% 0%'
+//     threshold: 1
+// });
+//
+// observer.observe(overlays);
