@@ -1,6 +1,6 @@
 .contact-row{
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .contact-form{
@@ -17,7 +17,12 @@
 
 .contact-me{
     position: absolute;
-    left: -60px;
+    left: 125px;
+}
+
+.contact-info-header h1{
+    position: absolute;
+    right: 280px;
 }
 .name-email{
     display: flex;
