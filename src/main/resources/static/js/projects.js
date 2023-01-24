@@ -30,10 +30,11 @@ window.addEventListener('scroll', function(e) {
 
 //Show Dialog
 $(document).ready(function() {
-    $('.showDialog').on("click", function (e) {
-        e.preventDefault();
-        $(this).parents(".outer-line").children(".dialog").show();
-        $(this).parents(".img_overlay_bottom").siblings(".dialog").show();
+    $('.clickForMoreInfo').on("click", function (e) {
+        console.log("clicked");
+        // e.preventDefault();
+        // $(".dialog").show();
+        // $(this).parents(".img_overlay_bottom").siblings(".dialog").show();
     });
 
     $('.close-button').click(function (e) {

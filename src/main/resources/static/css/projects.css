@@ -161,3 +161,36 @@ dialog {
 .showRender{
     color: white;
 }
+
+dialog {
+    background-color: rgba(195,99,100,.9);
+    position: absolute;
+    top: 15px;
+    left: 138px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    padding: 10px;
+    z-index: 99;
+}
+.dialog-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.close-button{
+    background-color: transparent;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.personalSocialMediaLogos{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
