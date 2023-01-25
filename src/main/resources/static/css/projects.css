@@ -162,7 +162,7 @@ dialog {
     color: white;
 }
 
-dialog {
+.dialog {
     background-color: rgba(195,99,100,.9);
     position: absolute;
     top: 15px;
