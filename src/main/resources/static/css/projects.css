@@ -45,6 +45,7 @@ svg {
     margin-bottom: 5px;
 }
 .row{
+    position: relative;
     display: flex;
     flex-direction: column;
 }
@@ -139,6 +140,8 @@ svg {
     background-color: var(--primary-color);
     opacity: .9;
     position: absolute;
+    top: 0;
+    left: 0;
     border: none;
     border-radius: 14px;
     box-shadow: 0 0 10px rgba(0,0,0,0.25);
@@ -147,22 +150,6 @@ svg {
     height: auto;
     width: 348px;
 }
-#firstDialog, #secondDialog, #thirdDialog{
-    top: 1px;
-}
-#fourthDialog, #fifthDialog, #sixthDialog{
-    bottom: 188px;
-}
-#firstDialog, #fourthDialog{
-    left: 49px;
-}
-#secondDialog, #fifthDialog{
-    left: 495px;
-}
-#thirdDialog, #sixthDialog{
-    left: 941px;
-}
-
 
 .dialog-header{
     display: flex;
