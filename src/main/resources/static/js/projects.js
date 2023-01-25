@@ -32,7 +32,9 @@
 $(".clickForMoreInfo").click(function () {
     $(this).next(".dialog").show();
 });
-
+ $(".close-button").click(function () {
+    $(this).closest(".dialog").hide();
+ });
 
 
 //close dialog on click outside
