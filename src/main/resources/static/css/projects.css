@@ -165,14 +165,15 @@ dialog {
 .dialog {
     background-color: rgba(195,99,100,.9);
     position: absolute;
-    top: 15px;
-    left: 138px;
-    width: 300px;
+    top: 1px;
+    left: 49px;
+    width: 348px;
     border: none;
-    border-radius: 10px;
+    border-radius: 14px;
     box-shadow: 0 0 10px rgba(0,0,0,0.25);
     padding: 10px;
     z-index: 99;
+    height: 248px;
 }
 .dialog-header{
     display: flex;
