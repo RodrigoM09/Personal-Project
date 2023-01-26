@@ -125,8 +125,7 @@ svg {
 }
 .img_overlay_second_row{
     position: absolute;
-    top: 435px;
-    bottom: 0;
+    top: 10px;
 }
 
 .img_overlay:hover, .img_overlay_second_row:hover{

@@ -162,3 +162,91 @@ p > span:hover{
     from {-webkit-transform: rotateZ(360deg)}
     to {-webkit-transform: rotateZ(0deg)}
 }
+.full-stack, .interactive-design, .mobile-development{
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+    background: var(--primary-color);
+    opacity: .9;
+    position:absolute;
+    z-index:1000;
+}
+.full-stack {
+    animation:centerMe 3s;
+    -webkit-animation:centerMe 3s;
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode:forwards;
+}
+.interactive-design{
+    animation:centerMeBlue 3s;
+    -webkit-animation:centerMeBlue 3s;
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode:forwards;
+}
+.mobile-development{
+    animation:centerMeYellow 3s;
+    -webkit-animation:centerMeYellow 3s;
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode:forwards;
+}
+@keyframes centerMeYellow {
+    0% {
+        left:0;
+        top:0;
+    }
+
+    100% {
+        left: 76%;
+        top: 5%;
+    }
+}
+
+@keyframes centerMeBlue {
+    0% {
+        left:0;
+        top:0;
+    }
+
+    100% {
+        left: 76%;
+        top: 35%;
+    }
+}
+
+@-webkit-keyframes centerMeBlue {
+    0% {
+        left:0;
+        top:0;
+    }
+
+    100% {
+        left: 76%;
+        top: 35%;
+    }
+}
+
+@keyframes centerMe  {
+    0% {
+        left:0;
+        top:0;
+    }
+
+    100% {
+        left: 76%;
+        top: 65%;
+    }
+
+}
+
+@-webkit-keyframes centerMe  {
+    0% {
+        left:0;
+        top:0;
+    }
+
+    100% {
+        left: 76%;
+        top: 60%;
+    }
+
+}
