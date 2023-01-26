@@ -11,23 +11,38 @@ body{
     display: flex;
     flex-direction: column;
 }
-.page-wrapper .page-container .row .column h2 {
-    margin-top: 150px;
-}
 
-.page-wrapper .page-container .row .column p {
-    max-width: 330px;
-    height: auto;
-}
 .page-container > .row > .column:nth-child(1) {
     background-color: grey;
     max-width: 365px;
     height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 75%;
 }
 .row > .column:nth-child(2) {
     position: absolute;
     top: 190px;
     left: 375px;
+}
+
+.myName{
+    font-family: BlackBones, sans-serif;
+    color: var(--primary-color);
+    font-size: 35px;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myName span {
+    font-family: BlackBones, sans-serif;
+    transition: all 0.3s cubic-bezier(0.7, -0.5, 0.3, 1.5) 0s;
+    display: block;
+    padding: 0 3px;
+    cursor: pointer;
+}
+.myName span:hover {
+    transform: scale(1.3);
 }
 
 .outCircle  {
