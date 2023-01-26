@@ -162,12 +162,13 @@ p > span:hover{
     from {-webkit-transform: rotateZ(360deg)}
     to {-webkit-transform: rotateZ(0deg)}
 }
+
 .full-stack, .interactive-design, .mobile-development{
     width: 200px;
     height: 200px;
     border-radius: 25%;
     background: var(--primary-color);
-    opacity: .9;
+    opacity: .95;
     position:absolute;
     z-index:1000;
 }
@@ -176,6 +177,15 @@ p > span:hover{
     -webkit-animation:centerMe 3s;
     animation-fill-mode:forwards;
     -webkit-animation-fill-mode:forwards;
+    display: grid;
+    grid-template-rows: 75% 1fr;
+    align-items: center;
+    justify-items: center;
+    padding-bottom: 5px;
+}
+.full-stack:hover, .interactive-design:hover, .mobile-development:hover{
+    transform: translate(-100px, -50px);
+    transition: all 0.5s;
 }
 .interactive-design{
     animation:centerMeBlue 3s;
@@ -197,7 +207,7 @@ p > span:hover{
 
     100% {
         left: 76%;
-        top: 5%;
+        top: 7%;
     }
 }
 
@@ -209,7 +219,7 @@ p > span:hover{
 
     100% {
         left: 76%;
-        top: 35%;
+        top: 37%;
     }
 }
 
@@ -221,7 +231,7 @@ p > span:hover{
 
     100% {
         left: 76%;
-        top: 35%;
+        top: 37%;
     }
 }
 
@@ -233,7 +243,7 @@ p > span:hover{
 
     100% {
         left: 76%;
-        top: 65%;
+        top: 67%;
     }
 
 }
@@ -246,7 +256,7 @@ p > span:hover{
 
     100% {
         left: 76%;
-        top: 60%;
+        top: 67%;
     }
 
 }
