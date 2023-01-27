@@ -270,13 +270,18 @@ p > span:hover{
         height: unset;
     }
 
-   .row > .column, .row > .column:nth-child(2), .row > .column:nth-child(3), .outCircle{
+   .row > .column, .row > .column:nth-child(2), .row > .column:nth-child(3){
        position: unset;
        display: flex;
        justify-content: space-evenly;
        flex-direction: row;
     }
-
+    .outCircle {
+        display: none;
+    }
+    .linkedin, .github, .gmail, .phone{
+        position: unset;
+    }
     .full-stack, .interactive-design, .mobile-development{
         animation: none;
         -webkit-animation: none;
