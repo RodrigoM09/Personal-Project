@@ -290,3 +290,15 @@ body.dark .switch::before{
     left: 88px;
     width: calc(100% - 88px);
 }
+
+@media screen and (max-width: 428px){
+    .sidebar{
+    display: none;
+    }
+
+    .sidebar.close ~ .page-container, .sidebar.close ~ .page {
+        left: 0;
+        width: 100%;
+        /*overflow: hidden;*/
+    }
+}
