@@ -7,16 +7,25 @@
 .page-container .column{
     padding: 0;
 }
+.column{
+    display: grid;
+    grid-template-rows: 0.1fr 0fr 0;
+    align-items: center;
+}
 .contact-row{
     position: absolute;
     top: 25px;
+}
+.row .row{
+    position: absolute;
+    top: 630px;
+    right: 277px;
 }
 
 .contact-form{
     box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, .5);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     padding: 15px;
     margin-top: 35px;
     width: 650px;
@@ -27,10 +36,12 @@
     display: flex;
     flex-direction: column;
     align-self: center;
+    margin-top: 25px;
 }
-/*.contact-row .column{*/
-/*    text-align: center;*/
-/*}*/
+.contact-me{
+    text-align: center;
+    align-self: center;
+}
 
 .contact-info-header h1{
     position: absolute;
@@ -41,6 +52,7 @@
     grid-template-columns: 1fr 1fr;
     align-content: center;
     justify-items: center;
+    margin-top: 20px;
 }
 .name, .email{
     display: grid;
@@ -65,4 +77,5 @@
     width: 3.33rem;
     height: 2rem;
     align-self: center;
+    margin-top: 5px;
 }
