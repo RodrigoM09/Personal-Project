@@ -171,3 +171,11 @@ svg {
     flex-direction: row;
     gap: 10px;
 }
+
+@media screen and (max-device-width: 428px) {
+    .page-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
