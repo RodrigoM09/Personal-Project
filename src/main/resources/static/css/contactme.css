@@ -24,6 +24,9 @@
     flex-direction: row;
     Justify-content: space-between;
 }
+.row img:hover {
+    transform: scale(1.5);
+}
 .row img{
     width: 50px;
     height: 50px;
@@ -85,4 +88,32 @@
     height: 2rem;
     align-self: center;
     margin-top: 5px;
+}
+@media screen and (max-device-width: 428px) {
+    .column{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 100% 100% 100%;
+    }
+    .contact-form{
+        width: 405px;
+        height: 520px;
+        justify-self: center;
+    }
+    .name input, .email input {
+        width: 11.33rem;
+    }
+    #subject{
+        width: 375px;
+    }
+    .row .row{
+        top: 556px;
+        right: 100px;
+    }
+    .row img{
+        width: 30px;
+        height: 30px;
+        margin: 0 10px;
+    }
+
 }
