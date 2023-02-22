@@ -302,17 +302,18 @@ body.dark .switch::before{
         display: inline-grid;
         align-content: center;
         overflow: hidden;
-        position: fixed;
+        position: absolute;
         top: 0;
         height: 5rem;
         width: 100vw;
-        background: var(--sidebar-color);
+        background-color: grey;
         opacity: .95;
     }
     .menu-links{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        list-style: none;
     }
 
     .nav-link{
