@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     /*background-color: gray;*/
     background-image: url("../img/collage.png");
 }
-.row{
+.row {
     display: flex;
     flex-direction: column;
 }
@@ -26,7 +26,7 @@ body{
     left: 375px;
 }
 
-.myName{
+.myName {
     font-family: BlackBones, sans-serif;
     color: var(--primary-color);
     font-size: 35px;
@@ -35,28 +35,28 @@ body{
     justify-content: center;
     align-items: center;
 }
-.myName span{
+.myName span {
     /*font-family: BlackBones, sans-serif;*/
     transition: all 0.3s cubic-bezier(0.7, -0.5, 0.3, 1.5) 0s;
     display: block;
     padding: 0 3px;
     cursor: pointer;
 }
-.myName span:hover{
+.myName span:hover {
     transform: scale(1.5);
 }
 
-p > span{
+p > span {
     color: var(--primary-color);
     transition: all 0.3s cubic-bezier(0.7, -0.5, 0.3, 1.5) 0s;
     cursor: pointer;
 }
-p > span:hover{
+p > span:hover {
     transform: scale(1.3);
 }
 
 
-.outCircle  {
+.outCircle {
     width: 200px;
     height: 200px;
     /*background-color: antiquewhite;*/
@@ -113,22 +113,22 @@ p > span:hover{
     left: 170px;
     top: 70px;
 }
-.github{
+.github {
     position: absolute;
     top: 12px;
     left: 12px;
 }
-.linkedin{
+.linkedin {
     position: absolute;
     top: 16px;
     left: 17px;
 }
-.gmail{
+.gmail {
     position: absolute;
     top: 12px;
     left: 13px;
 }
-.phone{
+.phone {
     position: absolute;
     top: 15px;
     left: 15px;
@@ -243,6 +243,9 @@ p > span:hover{
 }
 
 @media screen and (max-width: 428px){
+    .myName {
+        margin-bottom: 15px;
+    }
     .row {
         display: grid;
         grid-template-rows: repeat(3, auto);
@@ -261,7 +264,7 @@ p > span:hover{
         order: 1;
     }
 
-    .page-container > .row > .column:nth-child(1){
+    .page-container > .row > .column:nth-child(1) {
         max-width: 90%;
         display: flex;
         flex-direction: column;
@@ -272,7 +275,7 @@ p > span:hover{
         margin-top: 50px;
     }
 
-   .row > .column, .row > .column:nth-child(2), .row > .column:nth-child(3){
+   .row > .column, .row > .column:nth-child(2), .row > .column:nth-child(3) {
        position: unset;
        display: flex;
        justify-content: space-evenly;
@@ -281,10 +284,14 @@ p > span:hover{
     .outCircle {
         display: none;
     }
-    .linkedin, .github, .gmail, .phone{
+    .linkedin, .github, .gmail, .phone {
         position: unset;
     }
-    .full-stack, .interactive-design, .mobile-development{
+    .full-stack:hover, .interactive-design:hover, .mobile-development:hover {
+        transform: none;
+        transition: none;
+    }
+    .full-stack, .interactive-design, .mobile-development {
         animation: none;
         -webkit-animation: none;
         position: unset;
@@ -296,7 +303,7 @@ p > span:hover{
         align-items: center;
         text-align: center;
     }
-    .mobile-development > img, .interactive-design > img, .full-stack > img{
+    .mobile-development > img, .interactive-design > img, .full-stack > img {
         width: auto;
         height: 100%;
     }

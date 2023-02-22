@@ -304,7 +304,7 @@ body.dark .switch::before{
         overflow: hidden;
         position: absolute;
         top: 0;
-        height: 5rem;
+        height: 4rem;
         width: 100vw;
         background-color: grey;
         opacity: .95;
@@ -318,6 +318,10 @@ body.dark .switch::before{
 
     .nav-link{
         font-size: 25px;
+    }
+    .rmImage {
+        height: 30px;
+        width: 30px;
     }
     .sidebar.close ~ .page-container, .sidebar.close ~ .page {
         left: 0;
