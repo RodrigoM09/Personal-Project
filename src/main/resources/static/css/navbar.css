@@ -39,6 +39,9 @@ body.dark{
 }
 
 /*===========sidebar=================*/
+/*.mobileNavBar{*/
+/*    display: none;*/
+/*}*/
 .sidebar{
     position: fixed;
     top: 0;
@@ -292,8 +295,16 @@ body.dark .switch::before{
 }
 
 @media screen and (max-width: 428px){
-    .sidebar{
-    display: none;
+    .sidebar {
+        display: none;
+    }
+    .mobileNavBar {
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+        height: 5rem;
+        width: 100vw;
+        background: var(--sidebar-color);
     }
 
     .sidebar.close ~ .page-container, .sidebar.close ~ .page {
