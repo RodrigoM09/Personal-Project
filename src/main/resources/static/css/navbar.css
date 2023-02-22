@@ -299,12 +299,15 @@ body.dark .switch::before{
         display: none;
     }
     .mobileNavBar {
+        display: inline-grid;
+        align-content: center;
         overflow: hidden;
         position: fixed;
-        bottom: 0;
+        top: 0;
         height: 5rem;
         width: 100vw;
         background: var(--sidebar-color);
+        opacity: .95;
     }
     .menu-links{
         display: flex;
@@ -312,6 +315,9 @@ body.dark .switch::before{
         justify-content: space-around;
     }
 
+    .nav-link{
+        font-size: 25px;
+    }
     .sidebar.close ~ .page-container, .sidebar.close ~ .page {
         left: 0;
         width: 100%;
