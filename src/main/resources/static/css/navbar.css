@@ -306,6 +306,11 @@ body.dark .switch::before{
         width: 100vw;
         background: var(--sidebar-color);
     }
+    .menu-links{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 
     .sidebar.close ~ .page-container, .sidebar.close ~ .page {
         left: 0;
