@@ -4,6 +4,7 @@
     grid-row-gap: 8rem;
     justify-items: center;
     margin-top: 25px;
+    background-image: url("../img/backgroundWgradient.jpg");
 }
 
 .line-container {
