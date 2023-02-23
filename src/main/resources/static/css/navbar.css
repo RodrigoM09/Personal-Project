@@ -42,7 +42,7 @@ body.dark{
 .mobileNavBar{
     display: none;
 }
-.sidebar{
+.sidebar {
     position: fixed;
     top: 0;
     left: 0;
@@ -53,13 +53,13 @@ body.dark{
     transition: var(--tran-05);
     z-index: 100;
 }
-.sidebar.close{
+.sidebar.close {
     width: 88px;
 }
-.sidebar.close .text{
+.sidebar.close .text {
     opacity: 0;
 }
-.sidebar li{
+.sidebar li {
     height: 50px;
     margin-top: 10px;
     list-style: none;
@@ -68,7 +68,7 @@ body.dark{
 }
 
 .sidebar header .image,
-.sidebar .icon{
+.sidebar .icon {
     min-width: 60px;
     border-radius: 6px;
 }

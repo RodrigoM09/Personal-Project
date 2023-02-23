@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org" lang="en">
 <head>
-
   <div th:replace="~{partials/partials :: myheader('Rodrigo - Full Stack Web Dveloper')}"></div>
+  <link rel="stylesheet" href="../static/css/images.css">
 </head>
 <body>
-<nav th:replace="~{partials/partials :: mynav}"></nav>
-<nav th:replace="~{partials/partials :: mobilenav}"></nav>
-<div class="page-wrapper">
-  <div class="page-container">
-    <div class="row">
-
+  <nav th:replace="~{partials/partials :: mynav}"></nav>
+  <nav th:replace="~{partials/partials :: mobilenav}"></nav>
+  <div class="page-wrapper">
+    <div class="page-container">
+      <div class="row">
+      </div>
     </div>
   </div>
-</div>
-
-<script th:replace="~{partials/partials :: scripts}"></script>
+  <script th:replace="~{partials/partials :: scripts}"></script>
 </body>
 </html>
