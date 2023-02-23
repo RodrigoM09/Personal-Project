@@ -1,5 +1,8 @@
-.page-container{
+.page-wrapper{
     background-image: url("../img/backgroundWgradient.jpg");
+    background-size: cover;
+}
+.page-container{
     display: flex;
     align-items: center;
     justify-content: center;

@@ -252,7 +252,7 @@ p > span:hover {
         gap: 2rem;
         justify-content: center;
         align-items: center;
-        margin-top: 95px;
+        /*margin-top: 95px;*/
     }
     .row > .column {
         order: 2;

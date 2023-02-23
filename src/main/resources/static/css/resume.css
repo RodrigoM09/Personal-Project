@@ -111,6 +111,15 @@ ul{
         flex-direction: column;
     }
 }
+@media screen and (max-width: 428px){
+    .sidebar.close ~ .page-container, .sidebar.close ~ .page {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .page-container, .page {
+        height: unset;
+    }
+}
 @media print{
     main {
         background: transparent;
