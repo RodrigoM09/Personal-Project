@@ -2,9 +2,9 @@
     background-image: url("../img/backgroundWgradient.jpg");
     background-size: cover;
 }
-.page-container, .page {
+.page-container{
     position: unset;
-    height: 100vh;
+    /*height: 100vh;*/
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -15,9 +15,6 @@
 .row{
     display: flex;
     flex-direction: row;
-}
-body {
-    background-color: rgba(0,0,0,0.1);
 }
 
 /* styling paper */
