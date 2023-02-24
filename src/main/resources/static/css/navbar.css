@@ -303,12 +303,13 @@ body.dark .switch::before{
         display: inline-grid;
         align-content: center;
         overflow: hidden;
-        position: absolute;
-        top: 0;
+        position: fixed;
+        bottom: 0;
         height: 4rem;
         width: 100vw;
         background-color: grey;
         opacity: .95;
+        z-index: 100;
     }
     .menu-links{
         display: flex;
@@ -317,7 +318,7 @@ body.dark .switch::before{
         list-style: none;
     }
 
-    .nav-link{
+    .nav-link {
         font-size: 25px;
     }
     .rmImage {
@@ -327,7 +328,6 @@ body.dark .switch::before{
     .sidebar.close ~ .page-container, .sidebar.close ~ .page {
         left: 0;
         width: 100%;
-        margin-top: 95px;
         /*overflow: hidden;*/
     }
 }

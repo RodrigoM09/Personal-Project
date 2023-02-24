@@ -28,8 +28,6 @@
     <link rel="stylesheet" href="/css/navbar.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="../../static/css/images.css">
-
     <!--custom footer css-->
 
 
@@ -47,10 +45,8 @@
       <a class="image" th:href="@{/}">
         <img src="/img/Rodrigo%20Marquez.png" alt="logo">
       </a>
-
       <div class="text logo-text">
         <span class="name">Web Development</span>
-<!--        <span class="title">Full Stack</span>-->
       </div>
     </div>
 
@@ -58,10 +54,6 @@
   </header>
   <div class="menu-bar">
     <div class="menu">
-<!--      <li class="search-box">-->
-<!--          <i class="bx bx-search icon"></i>-->
-<!--        <input type="search" placeholder="Search">-->
-<!--      </li>-->
       <ul class="menu-links">
         <li class="nav-link">
           <a th:href="@{/}">
@@ -81,17 +73,12 @@
             <span class="text nav-text">&nbsp;Resume</span>
           </a>
         </li>
-<!--        <li class="nav-link">-->
-<!--          <a th:href="@{/}">-->
-<!--            <i class='bx bx-id-card icon'></i>-->
-<!--            <span class="text nav-text">&nbsp;About Me</span>-->
-<!--          </a>-->
-<!--        </li>-->
         <li class="nav-link">
-          <a th:href="@{/images}">
-            <i class='bx bxs-crop icon'></i>
-            <span class="text nav-text">&nbsp;Images</span>
+          <a th:href="@{/about-me}">
+            <i class='bx bx-id-card icon'></i>
+            <span class="text nav-text">&nbsp;About Me</span>
           </a>
+        </li>
         </li>
         <li class="nav-link">
           <a th:href="@{/contactme}">
@@ -129,7 +116,7 @@
   <div class="mobileNavContainer">
     <ul class="menu-links">
       <li class="nav-link">
-        <a th:href="@{/}" th:title="Home">
+        <a th:href="@{/}">
           <i class="bx bx-home-alt icon"></i>
           <span class="text nav-text"></span>
         </a>
