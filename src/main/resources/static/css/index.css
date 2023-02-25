@@ -272,7 +272,7 @@ p > span:hover {
         opacity: .95;
         justify-self: center;
         height: unset;
-        margin-top: 40px;
+        margin-top: 25px;
     }
 
    .row > .column, .row > .column:nth-child(2), .row > .column:nth-child(3) {
