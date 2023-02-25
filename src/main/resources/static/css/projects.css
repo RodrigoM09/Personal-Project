@@ -187,7 +187,8 @@ svg {
         padding-bottom: 65px;
     }
 
-    #projects{
+    #projects {
+        display: block;
         font-size: 2em;
         margin-top: 1em;
     }
