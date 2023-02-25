@@ -2,6 +2,9 @@ body{
     background-image: url("../img/backgroundWgradient.jpg");
     background-size: cover;
 }
+#projects{
+    display: none;
+}
 .page-container{
     display: grid;
     grid-template-columns: 33% 33% 33%;
