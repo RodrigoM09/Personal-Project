@@ -1,6 +1,7 @@
 body{
     background-image: url("../img/backgroundWgradient.jpg");
     background-size: cover;
+    min-height: 100vh;
 }
 #projects{
     display: none;
@@ -186,7 +187,10 @@ svg {
         align-items: center;
         padding-bottom: 65px;
     }
-
+    .mobileNavBar{
+        position: absolute;
+        bottom: -1530px;
+    }
     #projects {
         display: block;
         font-size: 2em;
