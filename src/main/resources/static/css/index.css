@@ -243,6 +243,9 @@ p > span:hover {
 }
 
 @media screen and (max-width: 450px){
+    .mainParagraph{
+        padding-bottom: 1em;
+    }
     .myName {
         margin-bottom: 15px;
     }
