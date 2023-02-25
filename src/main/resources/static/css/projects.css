@@ -187,10 +187,10 @@ svg {
         align-items: center;
         padding-bottom: 65px;
     }
-    /*.mobileNavBar{*/
-    /*    position: absolute;*/
-    /*    bottom: -1740px;*/
-    /*}*/
+    .mobileNavBar{
+        position: absolute;
+        bottom: -1740px;
+    }
     #projects {
         display: block;
         font-size: 2em;
