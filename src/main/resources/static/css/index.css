@@ -305,6 +305,6 @@ p > span:hover {
     }
     .mobile-development > img, .interactive-design > img, .full-stack > img {
         width: auto;
-        height: 100%;
+        height: 2rem;
     }
 }
