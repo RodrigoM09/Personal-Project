@@ -12,9 +12,9 @@
 	<artifactId>Personal-Project</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Personal-Project</name>
-	<description>Personal Prject</description>
+	<description>Personal Project</description>
 	<properties>
-		<java.version>19</java.version>
+		<java.version>11.0.18</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
