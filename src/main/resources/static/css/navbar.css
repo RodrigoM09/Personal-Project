@@ -295,7 +295,7 @@ body.dark .switch::before{
     margin-top: unset;
 }
 
-@media screen and (max-width: 428px){
+@media screen and (max-width: 450px){
     .sidebar {
         display: none;
     }

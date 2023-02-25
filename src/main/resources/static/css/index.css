@@ -242,7 +242,7 @@ p > span:hover {
 
 }
 
-@media screen and (max-width: 428px){
+@media screen and (max-width: 450px){
     .myName {
         margin-bottom: 15px;
     }

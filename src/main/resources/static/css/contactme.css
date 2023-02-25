@@ -92,7 +92,7 @@
     align-self: center;
     margin-top: 5px;
 }
-@media screen and (max-device-width: 428px) {
+@media screen and (max-device-width: 450px) {
     .column{
         display: grid;
         grid-template-columns: auto;
@@ -119,7 +119,7 @@
         margin: 0 10px;
     }
     #submit_contact{
-        width: 3.33rem;
+        width: 4.33rem;
         height: 2rem;
         align-self: center;
         margin-top: 5px;
