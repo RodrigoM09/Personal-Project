@@ -8,6 +8,6 @@ public class contactMeController {
 
     @GetMapping("/contactme")
     public String contactMe() {
-        return "/contactme";
+        return "contactme";
     }
 }

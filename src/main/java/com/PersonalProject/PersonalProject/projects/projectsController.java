@@ -8,6 +8,6 @@ public class projectsController {
 
     @GetMapping("/projects")
     public String projects() {
-        return "/projects";
+        return "projects";
     }
 }

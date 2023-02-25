@@ -8,6 +8,6 @@ public class resumeController {
 
     @GetMapping("/resume")
     public String resume() {
-        return "/resume";
+        return "resume";
     }
 }
