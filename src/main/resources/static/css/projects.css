@@ -1,10 +1,13 @@
+body{
+    background-image: url("../img/backgroundWgradient.jpg");
+    background-size: cover;
+}
 .page-container{
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-row-gap: 8rem;
     justify-items: center;
     margin-top: 25px;
-    background-image: url("../img/backgroundWgradient.jpg");
 }
 
 .line-container {
@@ -178,5 +181,14 @@ svg {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-bottom: 65px;
+    }
+
+    #projects{
+        font-size: 2em;
+        margin-top: 1em;
+    }
+    .row.first{
+        margin-top: -80px;
     }
 }

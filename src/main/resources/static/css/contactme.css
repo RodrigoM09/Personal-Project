@@ -118,5 +118,11 @@
         height: 30px;
         margin: 0 10px;
     }
+    #submit_contact{
+        width: 3.33rem;
+        height: 2rem;
+        align-self: center;
+        margin-top: 5px;
+    }
 
 }
