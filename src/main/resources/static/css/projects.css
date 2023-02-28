@@ -204,6 +204,7 @@ svg {
         display: block;
         font-size: 2em;
         margin-top: 1em;
+        position: unset;
     }
     .row.first{
         margin-top: -80px;
