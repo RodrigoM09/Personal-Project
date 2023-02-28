@@ -4,8 +4,17 @@ body{
     min-height: 100vh;
 }
 #projects{
-    display: none;
+    position: absolute;
+    top: 8px;
+    left: 38rem;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 2rem;
 }
+.first,.second, .third{
+        margin-top: 3.5rem;
+    }
 .page-container{
     display: grid;
     grid-template-columns: 33% 33% 33%;
