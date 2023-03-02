@@ -255,7 +255,7 @@ p > span:hover {
     .row {
         display: grid;
         grid-template-rows: 0.1fr 1fr;
-        gap: 1rem;
+        /*gap: 1rem;*/
         justify-content: center;
         align-items: center;
         /*margin-top: 95px;*/
