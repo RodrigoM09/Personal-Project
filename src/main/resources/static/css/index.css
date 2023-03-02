@@ -254,8 +254,8 @@ p > span:hover {
     }
     .row {
         display: grid;
-        grid-template-rows: repeat(3, auto);
-        gap: 2rem;
+        grid-template-rows: 0.1fr 1fr;
+        gap: 1rem;
         justify-content: center;
         align-items: center;
         /*margin-top: 95px;*/
