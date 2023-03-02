@@ -303,7 +303,7 @@ body.dark .switch::before{
         display: inline-grid;
         align-content: center;
         overflow: hidden;
-        position: absolute;
+        position: fixed;
         bottom: 0;
         height: 4rem;
         width: 100vw;
