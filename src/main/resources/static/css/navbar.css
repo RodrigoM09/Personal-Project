@@ -328,7 +328,8 @@ body.dark .switch::before{
     .sidebar.close ~ .page-container, .sidebar.close ~ .page {
         left: 0;
         width: 100vw;
-        height: 100vh;
+        min-height: 100vh ;
+        height: fit-content;
         overflow: hidden;
     }
 }
