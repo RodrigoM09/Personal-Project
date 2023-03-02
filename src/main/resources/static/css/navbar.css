@@ -304,7 +304,7 @@ body.dark .switch::before{
         align-content: center;
         overflow: hidden;
         position: absolute;
-        bottom: -105rem;
+        bottom: 0;
         height: 4rem;
         width: 100vw;
         background-color: grey;
