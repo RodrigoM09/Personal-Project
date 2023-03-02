@@ -277,8 +277,8 @@ p > span:hover {
         border-radius: 5%;
         opacity: .95;
         justify-self: center;
-        height: unset;
-        margin-top: 25px;
+        height: 100%;
+        padding: 2rem;
     }
 
    .row > .column, .row > .column:nth-child(2), .row > .column:nth-child(3) {
