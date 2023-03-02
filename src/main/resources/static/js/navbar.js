@@ -24,8 +24,3 @@ modeSwitch.addEventListener("click" , () =>{
 
     }
 });
-
-window.addEventListener('load', () => {
-    const doc = document.documentElement
-    doc.style.setProperty('--doc-height', `${window.innerHeight}px`)
-});

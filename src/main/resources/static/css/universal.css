@@ -1,11 +1,3 @@
-:root {
-    --doc-height: 100%;
-}
+.page-wrapper {
 
-html,
-body {
-    padding: 0;
-    margin: 0;
-    height: 100vh; /* fallback for Js load */
-    height: var(--doc-height);
 }

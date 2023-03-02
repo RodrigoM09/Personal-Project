@@ -303,8 +303,8 @@ body.dark .switch::before{
         display: inline-grid;
         align-content: center;
         overflow: hidden;
-        position: fixed;
-        bottom: 0;
+        position: absolute;
+        bottom: -105rem;
         height: 4rem;
         width: 100vw;
         background-color: grey;
