@@ -115,9 +115,13 @@ ul{
     .sidebar.close ~ .page-container, .sidebar.close ~ .page {
         margin-left: 8px;
         margin-right: 8px;
+        width: 100%;
     }
     .page-container, .page {
         height: unset;
+    }
+    .page {
+        padding: 1.5rem;
     }
 }
 @media print{
