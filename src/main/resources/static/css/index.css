@@ -96,7 +96,7 @@ p > span:hover {
     -webkit-border-radius: 50px;
     border-radius: 100px;
     position: absolute;
-    background: var(--primary-color);
+    background: #a5acaf;
     display: block;
     text-align: center;
 }
@@ -150,7 +150,7 @@ p > span:hover {
     width: 200px;
     height: 200px;
     border-radius: 25%;
-    background: var(--primary-color);
+    background: #0689ec;
     opacity: .95;
     position:absolute;
     z-index:1000;
