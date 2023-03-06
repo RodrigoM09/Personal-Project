@@ -7,6 +7,8 @@
 body {
     background-color: #e8e9f3;
     background-image: url("../img/collage.png");
+    /*background: rgb(0,90,156);*/
+    /*background: linear-gradient(90deg, rgba(0,94,156,1)  0%, rgba(6,137,236,1) 33%, rgba(0,90,156,1) 84%);*/
 }
 .page-container{
     overflow: hidden;

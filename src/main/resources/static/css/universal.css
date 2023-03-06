@@ -20,8 +20,10 @@
 
 body {
     height: 100vh;
-    background: var(--body-color);
+    /*background: var(--body-color);*/
     transition: var(--tran-05);
+    background: rgb(0,90,156);
+    background: linear-gradient(90deg, rgba(0,94,156,1)  0%, rgba(6,137,236,1) 33%, rgba(0,90,156,1) 84%);
 }
 
 ::selection {
