@@ -64,7 +64,6 @@ p > span:hover {
 .outCircle {
     width: 200px;
     height: 200px;
-    /*background-color: antiquewhite;*/
     opacity: 1;
     left: 270px;
     position: absolute;
