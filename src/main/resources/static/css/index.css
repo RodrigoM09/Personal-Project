@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #e8e9f3;
+    /*background-color: #e8e9f3;*/
     background-image: url("../img/collage.png");
     /*background: rgb(0,90,156);*/
     /*background: linear-gradient(90deg, rgba(0,94,156,1)  0%, rgba(6,137,236,1) 33%, rgba(0,90,156,1) 84%);*/
@@ -33,7 +33,7 @@ body {
 
 .myName {
     font-family: BlackBones, sans-serif;
-    color: #005a9c;
+    color: var(--primary-color);
     font-size: 2.188rem;
     line-height: 1;
     display: flex;
@@ -52,7 +52,7 @@ body {
 }
 
 p > span {
-    color: #005a9c;
+    color: var(--primary-color);
     transition: all 0.3s cubic-bezier(0.7, -0.5, 0.3, 1.5) 0s;
     cursor: pointer;
 }
@@ -152,7 +152,7 @@ p > span:hover {
     width: 200px;
     height: 200px;
     border-radius: 25%;
-    background: #0689ec;
+    background: var(--primary-color-light);
     opacity: .95;
     position:absolute;
     z-index:1000;
@@ -254,9 +254,9 @@ p > span:hover {
     text-transform: uppercase;
     background-image: linear-gradient(
             -225deg,
-            #023860 0%,
-            #005a9c 29%,
-            #0689ec 67%,
+            var(--primary-color-dark) 0%,
+            var(--primary-color) 29%,
+            var(--primary-color-light) 67%,
             #a5acaf 100%
     );
     background-size: auto auto;
