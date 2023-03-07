@@ -148,7 +148,7 @@ svg {
 }
 
 .dialog {
-    background-color: var(--primary-color);
+    background-color: var(--primary-color-light);
     opacity: .9;
     position: absolute;
     top: 0;
