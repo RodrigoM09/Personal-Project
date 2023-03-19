@@ -170,7 +170,7 @@ p > span:hover {
 }
 .full-stack:hover, .interactive-design:hover, .mobile-development:hover{
     transform: translate(-100px, -50px);
-    transition: all 0.5s;
+    transition: all 1.0s;
 }
 .interactive-design{
     animation:centerMeBlue 3s;
